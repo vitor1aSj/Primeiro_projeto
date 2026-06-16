@@ -10,4 +10,3 @@ print(f"Parabéns por seus {idade} anos")
 
 print(f"Parabéns por seus {idade} anos")
 
-p
