@@ -8,6 +8,7 @@ if media >= 7 :
     print(f"Aluno(a) Aprovado!Com a media: {media:.2f}")
 elif media >= 3 and media < 7:
     print(f"Aluno em recuperação com media {media:.2f}")
+<<<<<<< HEAD
     fez_recuperacao = input("Aluno ja fez a recuperação? s/n: ")
     if fez_recuperacao == "s":
         nota_recuperacao = float(input("Digite a nota da recuperação"))
@@ -15,6 +16,8 @@ elif media >= 3 and media < 7:
             print("Aluno(a) aprovado pela recuperação")
         else:
             print("Aluno(a) não obteve nota suficiente para ser aprovado após a recuperação")
+=======
+>>>>>>> a7c76838429a45681e840dba24bcdbd43b96d09b
 else: print(f"Aluno(a) Reprovado!Com a media:{media:.2f}")
 
 
