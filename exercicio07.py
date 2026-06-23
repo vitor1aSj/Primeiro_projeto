@@ -9,9 +9,9 @@
 
 
 print("DIGITE O COMPRIMENTO DE TRES RETAS: ")
-retaA = int(input("Reta A :"))
-retaB = int(input("Reta B :"))
-retaC = int(input("Reta C :"))
+retaA = float(input("Reta A :"))
+retaB = float(input("Reta B :"))
+retaC = float(input("Reta C :"))
 
 soma= retaA + retaB > retaC
 
@@ -20,6 +20,7 @@ if retaA == retaB == retaC :
 elif retaA == retaB or retaA == retaC or retaB == retaC :
     print("Isósceles!")
 else:
-    print("Todos os lados são diferentes")
+    print("Escaleno!")
+
 
 
