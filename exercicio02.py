@@ -11,4 +11,3 @@ else :
     print(f"Boa viagem, dirija com segurança!Velocidade de {veloci} km")
 
 
-
